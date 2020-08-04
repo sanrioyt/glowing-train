@@ -50,13 +50,5 @@ dates as columns (for better readability)
 
 ## Model Building
 
-Used k_means cluster with 10 clusters for best result. 
-I tried different clusters and settled on 10 as the best one.
- 
-* Build a pipeline with normalizer and kmeans clustering. Used
-normalizer to normalized the entire row
-* Get the labels after fitting and predicting. The same label denotes
-that the companies are similar. 
-* Used ScipPy to do hierchical clustering
-* Used t-SNE features to give us a map of the stock market.
+
 
